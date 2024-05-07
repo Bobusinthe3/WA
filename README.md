@@ -1,1 +1,3 @@
-to use the proxy type in 'python Ohio.py'
+to use the proxy type in ```sh
+   python Ohio.py
+   ```
