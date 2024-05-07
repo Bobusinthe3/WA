@@ -42,7 +42,7 @@ def start_proxy(proxy_host, proxy_port, remote_host, remote_port):
 if __name__ == "__main__":
     proxy_host = "127.0.0.1"  # Proxy listens on localhost
     proxy_port = 8888          # Proxy port
-    remote_host = "192.168.1.10"  # Remote host to forward requests
+    remote_host = "https://bookish-halibut-x55jj7xwjrrqfv9p9-8888.app.github.dev/"  # Remote host to forward requests
     remote_port = 80           # Remote port
     
     start_proxy(proxy_host, proxy_port, remote_host, remote_port)
